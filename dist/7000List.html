@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品列表页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="iconfont1/iconfont.css">
+    <link rel="stylesheet" href="iconfont2/iconfont.css">
+    <link rel="stylesheet" href="css/7000List.css">
+    <!-- 设置index.html所有引入.js文件进行模块化开发，遵从AMD规范 -->
+    <script src="../js/require.js" async = "true" defer data-main="js/List"> </script>
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="headerbox">
+        <div class="header">
+            <aside>
+                <span>欢迎来到七千猫&nbsp;&nbsp;&nbsp;</span>
+                <a href="7000login.html">登录&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+                <a href="7000register.html">注册</a>
+                <a href="7000Buy.html" class="cgd"><i class="iconfont">&#xe501;</i>采购单（<em class="goods_num">0</em>）</a>
+            </aside>
+        </div>
+    </div>
+    <!-- 导航栏 -->
+    <div class="navbox">
+        <div class="nav">
+            <img src="../images/user_login_logo.png" alt="">
+            <a href="">商品分类</a>
+            <a href="">首页</a>
+            <a href="">培训学院</a>
+            <a href="">定制直通车</a>
+            <form action="">
+                <button><i class="iconfont">&#xe502;</i></button>
+            </form>
+            <input type="text" placeholder="请输入商品型号或者名称">
+        </div>
+    </div>
+    <!-- 分类头部 -->
+    <div class="titlebox">
+        <div class="title">
+            <p>
+                <a href="">首页</a>
+                <span> > </span>
+                <span>搜索商品【移动电源】共找到71件商品</span>
+            </p>
+        </div>
+    </div>
+    <!-- 分类 -->
+    <div class="flybox">
+        <div class="fly">
+            <aside>分类：</aside>
+            <aside>
+                <a href="">移动电源/充电宝</a>
+            </aside>
+        </div>
+    </div>
+    <!-- 综合排序 -->
+    <div class="sortbox">
+        <div class="sort">
+            <aside>
+                <a href="">综合排序</a>
+                <a href="">销量</a>
+                <a href="">新品</a>
+                <a href="">价格</a>
+            </aside>
+            <article>
+                <input type="text" placeholder="￥最低价">
+                <span>&nbsp;-&nbsp;</span>
+                <input type="text" placeholder="￥最高价">
+            </article>
+            <article>
+                <span>1/4</span>
+                <a href=""> < </a>
+                <a href=""> > </a>
+            </article>
+        </div>
+    </div>
+    <!-- 商品数据 -->
+    <div class="mainbox">
+        <!-- <div class="main">
+            <div class="goods_item">
+                <a href="" class="goods_img">
+                    <img src="../images/goods_item1.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕 sense4 春草冬暖款移动电源</a>
+                <span>￥59.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item2.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕 sense4PS+快充移动电源</a>
+                <span>￥79.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item3.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕 SW20PS+移动电源</a>
+                <span>￥119.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item4.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕 PSP05移动电源</a>
+                <span>￥39.00</span>
+            </div>
+        </div>
+        <div class="main">
+            <div class="goods_item">
+                <a href="" class="goods_img">
+                    <img src="../images/goods_item5.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕 PCT10移动电源</a>
+                <span>￥59.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item6.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕 sense4-秋叶款 移动电源10000毫安</a>
+                <span>￥59.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item7.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕PAH02 2000毫安移动电源PAH02-106-1111</a>
+                <span>￥29.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item8.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕WSL10无线移动电源10000毫安</a>
+                <span>￥119.00</span>
+            </div>
+        </div>
+        <div class="main">
+            <div class="goods_item">
+                <a href="" class="goods_img">
+                    <img src="../images/goods_item9.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕sense6PS+ 20000毫安移动电源PSN20-112-1111</a>
+                <span>￥119.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item10.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕sense4（升级） 10000毫安移动电源
+                    </a>
+                <span>￥59.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item11.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕PSP05 5000毫安移动电源</a>
+                <span>￥39.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item12.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕PPB10 AIR白（升级） 10000毫安移动电源</a>
+                <span>￥69.00</span>
+            </div>
+        </div>
+        <div class="main">
+            <div class="goods_item">
+                <a href="" class="goods_img">
+                    <img src="../images/goods_item13.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕罗马仕PSL20 20000毫安移动电源</a>
+                <span>￥149.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item14.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕罗马仕PSL10 10000毫安移动电源</a>
+                <span>￥99.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item15.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕WP05T拍立充5000毫安 无线充移动电源</a>
+                <span>￥149.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item16.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕罗马仕WL1A 10000毫安无线充移动电源
+                    </a>
+                <span>￥89.00</span>
+            </div>
+        </div>
+        <div class="main">
+            <div class="goods_item">
+                <a href="" class="goods_img">
+                    <img src="../images/goods_item17.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕sense 4 mini 10000毫安移动电源充电宝</a>
+                <span>￥69.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item18.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕 移动电源 Candybox系列 LC10绿色粉红色 10000mAh 新包装</a>
+                <span>￥149.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item19.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕CT10卡通10000毫安移动电源充电宝</a>
+                <span>￥59.00</span>
+            </div>
+            <div class="goods_item">
+                <a href=""  class="goods_img">
+                    <img src="../images/goods_item20.png" alt="">
+                </a>
+                <a href="" class="goods_title">罗马仕移动电源QS10 10000mAh</a>
+                <span>￥89.00</span>
+            </div>
+        </div>
+        <div class="pagebox">
+            <ul>
+                <li><a href="" class="item_prev"> < </a></li>
+                <li><a href="" class="item_def">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="" class="item_next"> > </a></li>
+            </ul> 
+        </div>-->
+    </div>
+    <!-- 热门推荐 -->
+    <div class="hotbox">
+        <div class="hot">
+            <span class="door">热门推荐</span>
+            <div class="like_prev"><i class="iconfont">&#xe670;</i></div>
+            <div class="like_list">
+                <a href="">
+                    <aside>
+                        <img src="../images/hot1.png" alt="">
+                        <p>罗马仕 CB25N CB25A 三合一尼龙编织数据线 太空灰 1.5m 彩盒包装</p>
+                        <span>￥23.90</span>
+                    </aside>
+                </a>
+                <a href="">
+                    <aside>
+                        <img src="../images/hot2.png" alt="">
+                        <p>罗马仕安卓数据线CB05 白色 1m 彩盒包装版</p>
+                        <span>￥9.90</span>
+                    </aside>
+                </a>
+                <a href="">
+                    <aside>
+                        <img src="../images/hot3.png" alt="">
+                        <p>罗马仕充电器AC12S 白色 双口折叠充电器（彩盒）</p>
+                        <span>￥39.90</span>
+                    </aside>
+                </a>
+                <a href="">
+                    <aside>
+                        <img src="../images/hot4.png" alt="">
+                        <p>罗马仕苹果数据线CB12 白色 1m</p>
+                        <span>￥15.00</span>
+                    </aside>
+                </a>
+                <a href="">
+                    <aside>
+                        <img src="../images/hot5.png" alt="">
+                        <p>罗马仕AFN01 USB充电小风扇迷你便携式</p>
+                        <span>￥39.90</span>
+                    </aside>
+                </a>
+                <a href="">
+                    <aside>
+                        <img src="../images/hot6.png" alt="">
+                        <p>罗马仕AFN02 USB小风扇办公室桌床上静音电扇可充电小型夹扇夹式</p>
+                        <span>¥59.00</span>
+                    </aside>
+                </a>
+                <a href="">
+                    <aside>
+                        <img src="../images/hot1.png" alt="">
+                        <p>罗马仕 CB25N CB25A 三合一尼龙编织数据线 太空灰 1.5m 彩盒包装</p>
+                        <span>¥59.00</span>
+                    </aside>
+                </a>
+            </div>
+            <div class="like_next"><i class="iconfont">&#xe658;</i></div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footerbox">
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="">
+                        <aside>好</aside>
+                        <p>优质品牌 100%原装正品</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <aside>多</aside>
+                        <p>千款产品 任意挑选</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <aside>省</aside>
+                        <p>厂家直供 价格更低</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <aside>促</aside>
+                        <p>活动促销 在线申请执行</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <aside>培</aside>
+                        <p>提供培训 助力经营</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <aside>服</aside>
+                        <p>提供增值服务 为企业护航</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerbox1">
+        <div class="footer1">
+            <div class="left">
+                <aside>
+                    <h3>新手上路</h3>
+                    <ul>
+                        <li><a href="">订单管理</a></li>
+                        <li><a href="">定制直通车</a></li>
+                        <li><a href="">如何采购</a></li>
+                        <li><a href="">买家入驻</a></li>
+                    </ul>
+                </aside>
+                <aside>
+                    <h3>帮助中心</h3>
+                    <ul>
+                        <li><a href="">商品保养手册</a></li>
+                        <li><a href="">防伪与区域查询</a></li>
+                        <li><a href="">售后流程</a></li>
+                        <li><a href="">售后政策</a></li>
+                    </ul>
+                </aside>
+                <aside>
+                    <h3>人工服务</h3>
+                    <ul>
+                        <li><a href="">电话客服</a></li>
+                        <li><a href="">在线客服</a></li>
+                    </ul>
+                </aside>
+                <aside>
+                    <h3>关于我们</h3>
+                    <ul>
+                        <li><a href="">关于七千猫</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">招贤纳士</a></li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="right">
+                <img  class="img1" src="../images/rx.jpg" alt="">
+                <article>
+                    <h3>关注我们</h3>
+                    <a href=""><img src="../images/icon_wechat.png" alt=""></a>
+                    <a href=""><img src="../images/icon_weibo.png" alt=""></a>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="footerbox2">
+        <div class="footer2">
+            <div class="top">
+                <div class="list">
+                    <ul>
+                        <li><a href="">客服中心</a></li>
+                        <li><a href="">防伪查询</a></li>
+                        <li><a href="">商品区域查询</a></li>
+                        <li><a href="">平台公告</a></li>
+                        <li><a href="">网站地图</a></li>
+                        <li><a href="">七千猫热词</a></li>
+                        <li><a href="">法律声明</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>Copyright © 2019 七千猫. 保留所有权利。粤ICP备12034135号</p>
+            </div>
+        </div> 
+    </div>
+    <img id="img" src="../images/kf.jpg" alt="">
+    <div id="returnTop"><i class="iconfont">&#xe652;</i></div>
+    <section id="sec">
+        <hgroup>
+            <span>请您留言</span>
+            <span id="narrow">一</span>
+            <span id="enlarge">↗</span>
+        </hgroup>
+        <textarea name="" id="txt" placeholder="请在此输入留言内容，我们会尽快与您联系。（必填）"></textarea>
+        <article>
+            <i class="iconfont">&#xe624;</i>
+            <input type="text" placeholder="姓名">
+        </article>
+        <article>
+            <i class="iconfont">&#xe621;</i>
+            <input type="text" placeholder="电话（必填）">
+        </article>
+        <article>
+            <i class="iconfont">&#xe622;</i>
+            <input type="text" placeholder="邮箱">
+        </article>
+        <article>
+            <i class="iconfont">&#xe6ee;</i>
+            <input type="text" placeholder="地址">
+        </article>
+        <input id="enter" type="submit" value="发送">
+    </section>
+</body>
+</html>

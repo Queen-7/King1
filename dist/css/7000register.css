@@ -1,0 +1,309 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+/* 头部图标 */
+.headerbox {
+  height: 87px; }
+
+.headerbox .header {
+  width: 1200px;
+  height: 87px;
+  margin: 0 auto;
+  border-bottom: 1px solid #dcdcdc; }
+
+.headerbox .header .logo {
+  float: left;
+  margin-top: 10px; }
+
+.headerbox .header h2 {
+  width: 112px;
+  height: 46px;
+  float: left;
+  border-left: 1px solid #c9caca;
+  text-align: center;
+  line-height: 46px;
+  margin: 20px 0 0 15px;
+  color: #8a8a8a; }
+
+.headerbox .header span {
+  float: right;
+  font-size: 14px;
+  margin-top: 35px;
+  color: gray; }
+
+.headerbox .header span a {
+  color: red; }
+
+/* 七千猫账号 */
+.number {
+  height: 400px; }
+
+.number .num {
+  width: 938px;
+  height: 398px;
+  margin: 0 auto;
+  border-bottom: 1px dashed #bbb; }
+
+.number .num .top {
+  width: 940px;
+  height: 106px; }
+
+.number .num .top aside {
+  padding-top: 50px; }
+
+.number .num .top .iconfont {
+  font-size: 24px;
+  margin-left: 220px; }
+
+.number .num .top span {
+  font-size: 18px;
+  font-weight: 900; }
+
+.number .num .top p {
+  font-size: 12px;
+  margin-left: 220px;
+  margin-top: 10px; }
+
+.number .num .bottom article {
+  height: 60px;
+  margin-top: 25px; }
+
+.number .num .bottom span {
+  display: inline-block;
+  width: 75px;
+  height: 40px;
+  margin-left: 220px;
+  font-size: 14px;
+  line-height: 40px; }
+
+.number .num .bottom input {
+  border: none;
+  border: 1px solid #bbb; }
+
+.number .num .bottom article:first-child input {
+  width: 380px;
+  height: 38px;
+  padding-left: 10px; }
+
+.number .num .bottom article:first-child #username_p1 {
+  font-size: 12px;
+  margin-left: 320px;
+  margin-top: 5px; }
+
+.number .num .bottom article:nth-child(2) {
+  height: 40px; }
+
+.number .num .bottom article:nth-child(2) span {
+  float: left; }
+
+.number .num .bottom article:nth-child(2) input {
+  width: 233px;
+  height: 38px;
+  float: left;
+  margin-left: 6px;
+  padding-left: 10px; }
+
+.number .num .bottom article:nth-child(2) #div {
+  width: 131px;
+  height: 38px;
+  border: 1px solid black;
+  float: left;
+  margin-left: 25px;
+  text-align: center;
+  line-height: 38px; }
+
+.number .num .bottom #username_p2 {
+  font-size: 12px;
+  margin-left: 320px;
+  margin-top: 5px; }
+
+.number .num .bottom article:nth-child(4) input:nth-of-type(1) {
+  width: 233px;
+  height: 38px;
+  padding-left: 10px; }
+
+.number .num .bottom article:nth-child(4) input:nth-of-type(2) {
+  width: 133px;
+  height: 40px;
+  background: #dcdcdc;
+  text-align: center;
+  color: #4d4d4d;
+  border: none;
+  margin-left: 20px; }
+
+/* 设置登录密码 */
+.number1 {
+  height: 600px; }
+
+.number1 .num1 {
+  width: 938px;
+  height: 598px;
+  margin: 0 auto; }
+
+.number1 .num1 .top1 {
+  width: 940px;
+  height: 106px; }
+
+.number1 .num1 .top1 aside {
+  padding-top: 50px; }
+
+.number1 .num1 .top1 .iconfont {
+  font-size: 26px;
+  margin-left: 220px; }
+
+.number1 .num1 .top1 span {
+  font-size: 18px;
+  font-weight: 900; }
+
+.number1 .num1 .top1 p {
+  font-size: 12px;
+  margin-left: 220px;
+  margin-top: 10px; }
+
+.number1 .num1 .bottom1 {
+  width: 940px;
+  height: 344px; }
+
+.number1 .num1 .bottom1 article:nth-child(1) span:first-child {
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  margin-left: 185px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center; }
+
+.number1 .num1 .bottom1 article:nth-child(1) #pwd1 {
+  width: 364px;
+  height: 24px;
+  border: 1px solid #bbb;
+  padding: 7px; }
+
+.number1 .num1 .bottom1 article:nth-child(1) aside span:nth-of-type(1) {
+  display: inline-block;
+  width: 80px;
+  height: 13px;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  background-color: #bbb;
+  margin-left: 325px; }
+
+.number1 .num1 .bottom1 article:nth-child(1) aside span:nth-of-type(2) {
+  display: inline-block;
+  width: 80px;
+  height: 13px;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  background-color: #bbb;
+  margin-left: 3px; }
+
+.number1 .num1 .bottom1 article:nth-child(1) aside span:nth-of-type(3) {
+  display: inline-block;
+  width: 80px;
+  height: 13px;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  background-color: #bbb;
+  margin-left: 3px; }
+
+.number1 .num1 .bottom1 input {
+  border: none;
+  border: 1px solid #bbb; }
+
+.number1 .num1 .bottom1 article:nth-child(2) span {
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  margin-left: 185px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center; }
+
+.number1 .num1 .bottom1 article:nth-child(2) #pwd2 {
+  width: 364px;
+  height: 24px;
+  border: 1px solid #bbb;
+  padding: 7px; }
+
+.number1 .num1 .bottom1 article:nth-child(2) #username_p4 {
+  font-size: 12px;
+  margin-left: 330px;
+  margin-top: 5px; }
+
+.number1 .num1 .bottom1 article:nth-child(3) {
+  width: 384px;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px 0 20px 355px; }
+
+.number1 .num1 .bottom1 article:nth-child(3) span {
+  font-size: 12px; }
+
+.number1 .num1 .bottom1 article:nth-child(3) span a {
+  color: blue; }
+
+.number1 .num1 .bottom1 input:nth-child(4) {
+  width: 385px;
+  height: 50px;
+  background-color: #4a73ff;
+  border: none;
+  margin-left: 322px;
+  font-size: 18px;
+  color: #fff; }
+
+.number1 .num1 .bottom1 article:nth-of-type(1) {
+  padding-top: 40px; }
+
+.number1 .num1 .bottom1 article:nth-of-type(2) {
+  margin-top: 40px; }
+
+/* 底部 */
+.footerbox {
+  height: 117px; }
+
+.footerbox .footer {
+  width: 1200px;
+  height: 117px;
+  margin: 0 auto; }
+
+.footerbox .footer .top {
+  width: 1200px;
+  height: 75px; }
+
+.footerbox .footer .top .list {
+  width: 800px;
+  height: 75px;
+  margin: 0 auto; }
+
+.footerbox .footer .list ul {
+  line-height: 70px; }
+
+.footerbox .footer .list ul li {
+  float: left; }
+
+.footerbox .footer .list ul li:first-child {
+  margin-left: 60px; }
+
+.footerbox .footer .list ul li a {
+  font-size: 12px;
+  color: #bbb;
+  border-right: 1px solid #bbb;
+  padding: 0 20px; }
+
+.footerbox .footer .list ul li:nth-child(7) a {
+  border-right: none; }
+
+.footerbox .footer .bottom {
+  width: 1200px;
+  height: 42px; }
+
+.footerbox .footer .bottom p {
+  line-height: 42px;
+  color: #bbb;
+  text-align: center;
+  font-size: 12px; }

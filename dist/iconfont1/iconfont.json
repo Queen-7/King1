@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7459",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "3435",
+      "unicode_decimal": 13365
+    },
+    {
+      "icon_id": "1176633",
+      "name": "扫码",
+      "font_class": "saoma",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "2062285",
+      "name": "联系人",
+      "font_class": "lianxiren",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "3391698",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "3435735",
+      "name": "铅笔1208",
+      "font_class": "qianbi",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "3527742",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "5112882",
+      "name": "区域查询",
+      "font_class": "quyuchaxun",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "6430971",
+      "name": "服务热线",
+      "font_class": "fuwurexian",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "7341697",
+      "name": "防伪查询",
+      "font_class": "fangweichaxun",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "7463148",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "7742347",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    },
+    {
+      "icon_id": "7776527",
+      "name": "下  拉",
+      "font_class": "xiala",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "8568961",
+      "name": "kefu",
+      "font_class": "kefu",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "10182065",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "10412193",
+      "name": "微信 copy",
+      "font_class": "weixincopy",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "11114925",
+      "name": "电  话",
+      "font_class": "dianhua",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    }
+  ]
+}

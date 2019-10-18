@@ -1,0 +1,35 @@
+html, body, ul, ol, dl, li, dt, dd, form, input, h1, h2, h3, h4, h5, h6, fieldset, legend, img, textarea, p, select {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul, ol {
+  list-style: none; }
+
+b, strong, h1, h2, h3, h4, h5, h6, i, em {
+  font-weight: 500;
+  font-style: normal; }
+
+img {
+  vertical-align: middle; }
+
+img, fieldset {
+  border: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearfn:after {
+  content: "";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  height: 0;
+  visibility: hidden; }
