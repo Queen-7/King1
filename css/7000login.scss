@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* 头部图标 */
+.headerbox{
+    height: 87px;
+}
+.headerbox .header{
+    width:1200px;
+    height: 87px;
+    margin: 0 auto;
+}
+.headerbox .header .logo{
+    float: left;
+    margin-top:10px;
+}
+.headerbox .header h2{
+    width:112px;
+    height: 46px;
+    float: left;
+    border-left: 1px solid rgb(201, 202, 202);
+    text-align: center;
+    line-height: 46px;
+    margin: 20px 0 0 15px;
+    color: rgb(138, 138, 138)
+}
+/* 大图 */
+.bigbox{
+    height: 600px;
+    background: url(../images/login_bg.png) no-repeat;
+    background-position: -320px 0px;
+}
+.bigbox .logintable{
+    width:300px;
+    height: 310px;
+    background-color: #fff;
+    padding: 27px 31px 42px 29px;
+    float: right;
+    margin:90px 50px 0 0;
+}
+.bigbox .logintable aside:nth-of-type(1){
+    width:300px;
+    height: 35px;
+}
+.bigbox .logintable aside:nth-of-type(1) h3{
+    float: left;
+    color: rgb(89, 86, 86)
+}
+.bigbox .logintable aside:nth-of-type(1) a{
+    float: right;
+    color: rgb(74, 115, 255);
+}
+.bigbox .logintable form{
+    width:300px;
+    height: 246px;
+}
+.bigbox .logintable form input{
+    width:240px;
+    height: 48px;
+    border:none;
+    padding-left:10px;
+    float: left;
+}
+.bigbox .logintable form aside i{
+    display: inline-block;
+    width:48px;
+    height: 48px;
+    background-color: #bbb;
+    float: left;
+}
+.bigbox .logintable form aside:first-child{
+    width:298px;
+    height: 48px;
+    border: 1px solid #bbb;
+    margin-top: 25px;
+}
+.bigbox .logintable form aside:first-child .iconfont{
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+    color:#fff;
+}
+.bigbox .logintable form aside:nth-child(2){
+    width:298px;
+    height: 48px;
+    border: 1px solid #bbb;
+    margin-top:15px;
+}
+.bigbox .logintable form aside:nth-child(2) .iconfont{
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+    color:#fff;
+}
+.bigbox .logintable form aside:nth-child(3){
+    width:300px;
+    height: 40px;
+    margin-top:15px;
+}
+/* .bigbox .logintable form aside:nth-child(3) span{
+    font-size: 12px;
+    margin-left:80px;
+    display: none;
+} */
+.bigbox .logintable form aside:nth-child(3) a{
+    float: right;
+    font-size: 14px;
+    color: gray;
+}
+.bigbox .logintable #login{
+    width:300px;
+    height: 50px;
+    background-color: blue;
+    color:#fff;
+    font-size: 18px;
+}
+/* 底部 */
+.footerbox{
+    height: 117px;;
+}
+.footerbox .footer{
+    width:1200px;
+    height: 117px;
+    margin:0 auto;
+}
+.footerbox .footer .top{
+    width:1200px;
+    height: 75px;
+}
+.footerbox .footer .top .list{
+    width:800px;
+    height: 75px;
+    margin:0 auto;
+}
+.footerbox .footer .list ul{
+    line-height: 70px;
+}
+.footerbox .footer .list ul li{
+    float: left;
+}
+.footerbox .footer .list ul li:first-child{
+    margin-left: 60px;
+}
+.footerbox .footer .list ul li a{
+    font-size: 12px;
+    color: #bbb;
+    border-right: 1px solid #bbb;
+    padding:0 20px;
+}
+.footerbox .footer .list ul li:nth-child(7) a{
+    border-right: none;
+}
+.footerbox .footer .bottom{
+    width:1200px;
+    height: 42px;
+}
+.footerbox .footer .bottom p{
+    line-height: 42px;
+    color:#bbb;
+    text-align: center;
+    font-size: 12px;
+}
