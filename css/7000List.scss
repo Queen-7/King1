@@ -294,13 +294,28 @@
     margin-top: 20px;
     padding: 0 30px;
 }
-.mainbox .main .goods_item span{
+.mainbox .main .goods_item span:nth-of-type(1){
     font-size: 18px;
     color: #cc3341;
     overflow: hidden;
     line-height: 30px;
     margin-top: 20px;
     padding: 0 30px;
+}
+.mainbox .main .goods_item .joinCar{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(204, 51, 65);
+    background: rgb(204, 51, 65);
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top:20px;
+    border-radius: 5px;
 }
 .mainbox .pagebox{
     padding: 40px 0;
